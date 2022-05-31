@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+  <head>
+    <!-- PAGE INFO -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Equipamentos</title>
+    <!-- icones -->
+    <link rel="stylesheet" href="Nova pasta/A/style.css" />
+    <!-- Swiper-->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
+    <!-- STYLES -->
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="equipamentos.css" />
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header id="header">
+      <nav class="container">
+        <a class="logo" href="#home"
+          ><span>
+            <img src="Nova pasta/A/p/marca.png" alt="" class="marca" /></span><span2> Locações de Equipamentos</span2></a>
+        
+        <!-- menu -->
+        <div class="menu">
+          <ul class="grid">
+            <li>
+              <a class="title" href="http://127.0.0.1:5500/index.html#home"
+                >Início</a
+              >
+            </li>
+            <li>
+              <a class="title" href="http://127.0.0.1:5500/index.html#about"
+                >Sobre</a
+              >
+            </li>
+            <li>
+              <a class="title page1" href="#equipaments" target="_blank"
+                >Equipamentos</a
+              >
+            </li>
+            <li>
+              <a class="title" href="http://127.0.0.1:5500/index.html#services"
+                >Serviços</a
+              >
+            </li>
+            <li>
+              <a
+                class="title"
+                href="http://127.0.0.1:5500/index.html#testimonials"
+                >Depoimentos</a
+              >
+            </li>
+            <li>
+              <a class="title" href="http://127.0.0.1:5500/index.html#contact"
+                >Contato</a
+              >
+            </li>
+          </ul>
+        </div>
+        <!-- /menu -->
+        <div class="toggle icon-menu"></div>
+        <div class="toggle icon-close"></div>
+      </nav>
+    </header>
+
+    <section class="section page" id="equipamentos">
+      <div class="container grid">
+        <header>
+          <h2 class="title2">Equipamentos</h2>
+          <p>
+            Veja os equipamentos que a <strong>JM</strong> oferece pra você
+            aqui!!
+          </p>
+        </header>
+
+        <!--<div id="divBusca">
+          <input type="text" id="txtBusca" placeholder="Buscar..." />
+          <a><button class="botom" id="btnBusca">Buscar</button></a>
+        </div> -->
+
+<!-- linking the stylesheet(CSS) -->
+<link rel="stylesheet" type="text/css" href="equipamentos.css">
+</head>
+  
+<body>
+      
+    <!-- input tag -->
+    <input id="searchbar" onkeyup="search_equip()" type="text"
+        name="search" placeholder="Buscar...">
+      
+    <!-- ordered list -->
+    
+      
+    <!-- linking javascript -->
+    <script src="equipamentos.js"></script>
+
+    <ol id='list'>
+        <div class="cards grid">
+          <div class="card equip"><h3>bertoneira</h3></div>
+          <div class="card equip"><h3>furadeira impacto</h3></div>
+          <div class="card equip"><h3>lixa</h3></div>
+          <div class="card equip"><h3>compressor</h3></div>
+          <div class="card equip"><h3>gerador</h3></div>
+          <div class="card equip"><h3>lavadora</h3></div>
+          <div class="card equip"><h3>compactadora</h3></div>
+          <div class="card equip"><h3>lixadeira de teto</h3></div>
+          <div class="card equip"><h3>guincho</h3></div>
+          <div class="card equip"><h3>andaime</h3></div>
+          <div class="card equip"><h3>andaime</h3></div>
+          <div class="card equip"><h3>escora</h3></div>
+        </div>
+      </div>
+    </ol>
+    </section>
+
+    <footer class="section">
+      <div class="container grid">
+        <div class="brand">
+          <a class="logo logo-alt" href="#home"
+            ><span> JM </span
+            ><span3
+              >Locações de Equipamentos para construção civil entre
+              outros.</span3
+            ></a
+          >
+          <p>Todos os direitos reservados. @2022</p>
+          <a
+              href="https://api.whatsapp.com/send?phone=5533991433065&text=oie%20vic"
+              class="button"
+              target="_blank"
+              ><i class="icon-whatsapp"></i>Entrar em contato</a
+            >
+        </div>
+
+        <div class="social">
+          <a href="https://instagram.com" target="_blank"
+            ><i class="icon-instagram"></i
+          ></a>
+          <a href="https://facebook.com" target="_blank"
+            ><i class="icon-facebook"></i
+          ></a>
+          <a href="https://goo.gl/maps/ZHQAHtCFY1sxKtyt6" target="_blank"
+            ><i class="icon-map-pin"></i
+          ></a>
+        </div>
+      </div>
+    </footer>
+
+    
+
+    <!-- Swiper-->
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+
+    <!--Scroll Reveal-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- main.js-->
+    <script src="main.js"></script>
+  </body>
+</html>
